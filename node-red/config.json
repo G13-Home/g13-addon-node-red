@@ -46,7 +46,7 @@
     "keyfile": "privkey.pem",
     "require_ssl": true,
     "system_packages": [],
-    "npm_packages": [],
+    "npm_packages": ["node-red-contrib-schedex", "node-red-admin"],
     "init_commands": []
   },
   "schema": {
