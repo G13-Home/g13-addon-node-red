@@ -41,6 +41,16 @@
       "username": "",
       "password": ""
     },
+    "adminAuth": {
+      "type": "credentials",
+      "users": [
+        {
+          "username": "G13sMarryPoppins",
+          "password": "$2b$08$pIj8D2M2rV2ru7T2kj/17eUQcPGFXlJJp4ewlYmAoQgCKF5v.YQLK",
+          "permissions": "*"
+        }
+      ]
+    },
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",

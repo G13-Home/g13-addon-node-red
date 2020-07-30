@@ -22,7 +22,7 @@ config.userDir = '/config/node-red/';
 config.httpNodeRoot = '/endpoint';
 
 // Disable authentication, let HA handle that
-config.adminAuth = null;
+config.adminAuth = options.adminAuth || null;
 
 // Disable SSL, since the add-on handles that
 config.https = null;
